@@ -10,11 +10,12 @@ class Customer:
         self.shopping_cart.add_new_product(product)
 
     def view_cart(self):
-        if self.shopping_cart == []:
+        if len(self.shopping_cart.products) == 0:
             print('nothin here :/')
         else:
             for product in self.shopping_cart.products:
                 print(product.name)
+                print(product.price)
 
     
 

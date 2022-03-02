@@ -19,7 +19,11 @@ customer_one.add_product_to_cart(product_three)
 customer_one.view_cart()
 
 #call the customer's shopping cart's get total method - capture the total method returns in a variable and print to the terminal
+shopping_cart_total = customer_one.shopping_cart.calculate_total()
+print('Your total is: $' + str(shopping_cart_total))
 
 #call the customer's shopping cart's empty cart method
+customer_one.shopping_cart.empty_cart()
 
 #check if all products have been removed from the shopping cart
+customer_one.view_cart()
