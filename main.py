@@ -1,5 +1,5 @@
-from customer import Customer
-from product import Product
+from Customer import Customer
+from Product import Product
 
 customer_one = Customer('Tessa')
 product_one = Product('Banana', 1.5, 'Produce')
