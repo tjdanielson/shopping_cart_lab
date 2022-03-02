@@ -2,8 +2,8 @@ from customer import Customer
 from product import Product
 
 customer_one = Customer('Tessa')
-product_one = Product('Banana', 2, 'Produce')
-product_two = Product('Donut', 1, 'Bakery')
+product_one = Product('Banana', 1.5, 'Produce')
+product_two = Product('Donut', 2, 'Bakery')
 product_three = Product('Cheese', 3, 'Dairy')
 
 #print the customer's name
